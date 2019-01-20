@@ -28,7 +28,7 @@ function renderComponent(ComponentClass, props = {}, state = {}) {
 
 $.fn.simulate = function(eventName, value) {
   if (value) {
-    this.val(value);
+    this.val(value); //test
   }
   TestUtils.Simulate[eventName](this[0]);
 };
